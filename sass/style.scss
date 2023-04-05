@@ -34,7 +34,7 @@ $transition: all 1s;
     height: 729px;
 }
 .logo {
-    padding: 12px 0 12px 200px;
+    padding: 12px 0 12px 190px;
 }
 .menu {
         padding: 12px 0 12px 300px;
@@ -97,7 +97,7 @@ $transition: all 1s;
     width: auto;
     height: 40px;
 }
-.services-title {
+.services-title, .portfolio-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,8 +105,10 @@ $transition: all 1s;
     font-family: $font-text-one;
     margin: 25px 0;
 }
-h2 {
+h4 {
+    font-family: $font-text-one;
     margin-bottom: 0;
+    font-size: 40px;
 }
 h3 {
     font-family: $font-text-one;
@@ -125,4 +127,31 @@ p {
     align-content: center;
     text-align: center;
     margin: 0 105px;
+}
+.our-portfolio {
+    background-color: #f7f7f7;
+}
+.box {
+    background-color: #ffffff;
+    margin: 10px;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+p1 {
+    font-style: italic;
 }
