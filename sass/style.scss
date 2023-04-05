@@ -97,3 +97,32 @@ $transition: all 1s;
     width: auto;
     height: 40px;
 }
+.services-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-text-one;
+    margin: 25px 0;
+}
+h2 {
+    margin-bottom: 0;
+}
+h3 {
+    font-family: $font-text-one;
+    font-size: 18px;
+}
+p {
+    font-family: "Roboto Slab";
+    font-size: 14px;
+}
+.services-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 105px;
+}
