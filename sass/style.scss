@@ -2,4 +2,98 @@
 $color-one: #fed136;
 $color-two: #f7f7f7;
 $font-text-one: 'Montserrat', sans-serif;
-$font-text-one: 'Playfair Display', serif;
+$font-text-two: 'Playfair Display', serif;
+$color-one: #0984e3;
+$color-two: #ff7675;
+$color-three: #6c5ce7;
+$font-color-bright: #ffffff;
+$font-color-dark: #2c2c54;
+$transition: all 1s;
+
+/*Global*/
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text-one;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #fed136;
+}
+.header {
+    background-color: #000000;
+    background-image:  url(/images/Background_Image.png);
+    background-size: 127%;
+    background-position: left top;
+    background-repeat: repeat;
+    height: 729px;
+}
+.logo {
+    padding: 12px 0 12px 200px;
+}
+.menu {
+        padding: 12px 0 12px 300px;
+}
+.menu ul {
+    padding: 0 0;
+    margin: 0 0;
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 36px;
+}
+.menu a{
+    text-decoration: none;
+    color: $font-color-bright;
+    font-family: $font-text-one;
+}
+.menu ul li a:hover {
+   color: #6c5ce7;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+.header-bottom {
+    width: auto;
+    height: 672px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.splash {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.header-bottom .page-title {
+    font-family: $font-text-two;
+    color: #ffffff;
+    font-size: 40px;
+    width: auto;
+    height: 0;
+}
+.header-bottom .page-subtitle {
+    font-family: $font-text-one;
+    color: #ffffff;
+    font-size: 75px;
+    width: auto;
+    height: 40px;
+}
