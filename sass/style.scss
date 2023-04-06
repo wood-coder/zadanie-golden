@@ -142,6 +142,8 @@ p {
     justify-content: center;
     align-items: baseline;
     align-content: center;
+    width: 1000px;
+    margin: auto;
 }
 .description {
     display: flex;
@@ -166,7 +168,7 @@ p1 {
 }
 .copyright {
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 15%;
 }
 p2 {
     font-family: $font-text-one;
