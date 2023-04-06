@@ -155,3 +155,37 @@ p {
 p1 {
     font-style: italic;
 }
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin: 50px 0;
+}
+.copyright {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+p2 {
+    font-family: $font-text-one;
+    font-size: 14px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 265px;
+}
+.social img {
+    position: absolute;
+    padding: 22px;
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #222222;
+}
